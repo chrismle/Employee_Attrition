@@ -12,24 +12,29 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   │    └── IBM_HR-Employee-Attrition_cleaned.csv
     │   └── raw            <- The original, immutable data dump.
-    │
+    │        └── IBM_HR-Employee-Attrition.csv
+    │  
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Model metrics file
+    │    └── IBM_HR-Employee-Attrition.csv
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering
+    │    ├── 1.0-cml-ibm-data_wrangling.ipynb
+    │    ├── 2.0-cml-ibm-eda.ipynb
+    │    └── 3.0-cml-ibm-preprocessing_and_modeling.ipynb.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
+    ├── reports            <- Generated analysis as PDF, PPTX, etc.
+    │    ├── TableauViz-IBM_Employee_Attrition.pdf
+    │    ├── Tableau-IBM_Employee_Attrition.twbx
+    │    ├── Employee_Attrition_Report.pdf
+    │    ├── Employee_Attrition_SlideDeck.pdf
+    │    └── Employee_Attrition_Presentation.pptx
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
