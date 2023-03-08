@@ -1,4 +1,4 @@
-Employee_Attrition
+Cracking the Attrition Code: Predicting IBM Employee Attrition
 ==============================
 
 The purpose of this project is to analyze the data obtained from the Human Resources Department of IBM, determine the factors that influence employees to leave IBM, and build a prediction model to predict which employees will become attrition. 
